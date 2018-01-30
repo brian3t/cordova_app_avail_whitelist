@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<plugin id="cordova-add-whitelist-app-availability-info-plist" version="0.1.6" xmlns="http://apache.org/cordova/ns/plugins/1.0">
+    <name>App Availability Whitelist Info Plist</name>
+    <author>Brian Nguyen (https://github.com/brian3t)</author>
+    <description>Cordova / PhoneGap Plugin to add whitelist to the Info.plist file in order to use AppAvailability on the iOS 9.2 and above changes</description>
+    <keywords>cordova, ios, appavailability</keywords>
+    <license>MIT</license>
+    <engines>
+        <engine name="cordova" version=">=3.0.0"/>
+    </engines>
+    <platform name="ios">
+      <config-file target="*-Info.plist" parent="LSApplicationQueriesSchemes">         
+        <array>
+            <string>commuterconnections</string>
+        </array>          
+      </config-file>
+    </platform>
+</plugin>
