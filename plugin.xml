@@ -12,7 +12,6 @@
       <config-file target="*-Info.plist" parent="LSApplicationQueriesSchemes">         
         <array>
             <string>commuterconnections</string>
-            <string>carpoolnow</string>
         </array>          
       </config-file>
     </platform>
